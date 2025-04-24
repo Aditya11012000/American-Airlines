@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Source city selected]]>
+    </line>
+    <line>
+      <![CDATA[Destination city selected]]>
+    </line>
+    <line>
+      <![CDATA[Adults selected]]>
+    </line>
+    <line>
+      <![CDATA[Date selected]]>
+    </line>
+    <line>
+      <![CDATA[Children selected]]>
+    </line>
+    <line>
+      <![CDATA[Flight searched]]>
+    </line>
+    <line>
+      <![CDATA[Flights sorted]]>
+    </line>
+    <line>
+      <![CDATA[Flights selected]]>
+    </line>
+    <line>
+      <![CDATA[Continued to passenger details page.]]>
+    </line>
+    <line>
+      <![CDATA[Title and gender has selected.]]>
+    </line>
+    <line>
+      <![CDATA[Page scrolled]]>
+    </line>
+    <line>
+      <![CDATA[Name entered.]]>
+    </line>
+    <line>
+      <![CDATA[Date of birth selected.]]>
+    </line>
+    <line>
+      <![CDATA[Page scrolled by element.]]>
+    </line>
+    <line>
+      <![CDATA[Email has entered.]]>
+    </line>
+    <line>
+      <![CDATA[Phone number entered.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to payment page.]]>
+    </line>
+    <line>
+      <![CDATA[TC passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-23T22:59:44 IST" name="Default suite" finished-at="2025-04-23T23:01:26 IST" duration-ms="102852">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T22:59:44 IST" name="Default test" finished-at="2025-04-23T23:01:26 IST" duration-ms="102852">
+      <class name="com.American_Airlines_Testng.fligHtBookingMainTestng">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@33c911a1]" started-at="2025-04-23T22:59:44 IST" name="launchBrowser" finished-at="2025-04-23T22:59:51 IST" duration-ms="7129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preconditions()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@33c911a1]" started-at="2025-04-23T22:59:51 IST" name="preconditions" finished-at="2025-04-23T23:01:26 IST" duration-ms="95653" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Source city selected]]>
+            </line>
+            <line>
+              <![CDATA[Destination city selected]]>
+            </line>
+            <line>
+              <![CDATA[Adults selected]]>
+            </line>
+            <line>
+              <![CDATA[Date selected]]>
+            </line>
+            <line>
+              <![CDATA[Children selected]]>
+            </line>
+            <line>
+              <![CDATA[Flight searched]]>
+            </line>
+            <line>
+              <![CDATA[Flights sorted]]>
+            </line>
+            <line>
+              <![CDATA[Flights selected]]>
+            </line>
+            <line>
+              <![CDATA[Continued to passenger details page.]]>
+            </line>
+            <line>
+              <![CDATA[Title and gender has selected.]]>
+            </line>
+            <line>
+              <![CDATA[Page scrolled]]>
+            </line>
+            <line>
+              <![CDATA[Name entered.]]>
+            </line>
+            <line>
+              <![CDATA[Date of birth selected.]]>
+            </line>
+            <line>
+              <![CDATA[Page scrolled by element.]]>
+            </line>
+            <line>
+              <![CDATA[Email has entered.]]>
+            </line>
+            <line>
+              <![CDATA[Phone number entered.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to payment page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preconditions -->
+        <test-method signature="f()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@33c911a1]" started-at="2025-04-23T23:01:26 IST" name="f" finished-at="2025-04-23T23:01:26 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.American_Airlines_Testng.fligHtBookingMainTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
