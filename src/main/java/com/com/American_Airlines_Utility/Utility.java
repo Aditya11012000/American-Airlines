@@ -26,12 +26,13 @@ public class Utility {
 	public static void scrollPage(WebDriver driver) {
 		JavascriptExecutor js= ((JavascriptExecutor)driver);
 		js.executeScript("window.scrollBy(500,500)");
+		Reporter.log("Page scrolled.",true);
 	}
 	
-	public static void scrollPageByElement(WebDriver driver, WebElement element) {
+	public static void scrollPage(WebDriver driver, WebElement element) {
 		JavascriptExecutor js= ((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].scrollIntoView(true)",element);
-		Reporter.log("Page scrolled by element.",true);
+		Reporter.log("Page scrolled to element : "+element.getText(),true);
 	}
 	
 	 public static void selectValueFromList(WebElement element, String text)

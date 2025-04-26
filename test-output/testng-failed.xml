@@ -5,9 +5,9 @@
     <classes>
       <class name="com.American_Airlines_Testng.fligHtBookingMainTestng">
         <methods>
-          <include name="f"/>
-          <include name="preconditions"/>
           <include name="launchBrowser"/>
+          <include name="preconditions"/>
+          <include name="creditCardSelectionValidation"/>
         </methods>
       </class> <!-- com.American_Airlines_Testng.fligHtBookingMainTestng -->
     </classes>

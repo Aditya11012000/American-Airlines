@@ -67,13 +67,14 @@ public void selectDate() throws InterruptedException {
 public void selectChildren(String n) throws InterruptedException {
 	Select sel = new Select(children);
 	children.click();
-	Thread.sleep(1000);
 	sel.selectByValue(n);
 	Reporter.log("Children selected",true);
 }
 public void searchFlight() {
 	search.click();
 	Reporter.log("Flight searched",true);
+	Reporter.log("Navigated to flight selection page.",true);
+	System.out.println();
 }
 
 

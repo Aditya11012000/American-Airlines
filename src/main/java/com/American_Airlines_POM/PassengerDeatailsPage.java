@@ -29,46 +29,56 @@ public class PassengerDeatailsPage extends Base {
 	}
 	
 	public void selectTitleAndGender(String givenTitle, String givenGender) throws InterruptedException{
+//		Utility.scrollPage(driver, title);
 		Utility.selectValueFromList(title, givenTitle);
 		Thread.sleep(1000);
 		Utility.selectValueFromList(gender, givenGender);
 		Reporter.log("Title and gender has selected.",true);
 	}
 	
-	public void enterFullName(String fn, String mn, String ln) {
-		Reporter.log("Page scrolled",true);
+	public void enterFullName(String fn, String mn, String ln) throws InterruptedException {
+		Utility.scrollPage(driver, fName);
 		fName.sendKeys(fn);
+		Thread.sleep(1000);
 		mName.sendKeys(mn);
+		Thread.sleep(1000);
 		lName.sendKeys(ln);
-		Reporter.log("Name entered.",true);
+		Reporter.log("Passenger name has entered.",true);
 	}
 	
-	public void selectDateOfBirth(String dd, String m, String yy) {
+	public void selectDateOfBirth(String dd, String m, String yy) throws InterruptedException {
+//		Utility.scrollPage(driver, day);
 	Utility.selectValueFromList(day, dd);
+	Thread.sleep(1000);
 	Utility.selectValueFromList(month, m);
+	Thread.sleep(1000);
 	Utility.selectValueFromList(year, yy);
-	Reporter.log("Date of birth selected.",true);
+	Reporter.log("Date of birth have selected.",true);
 	}
 	
 	public void enterEmail(String email) throws InterruptedException {
-		Utility.scrollPageByElement(driver, primaryEmail);
+		Utility.scrollPage(driver, primaryEmail);
 		primaryEmail.sendKeys(email);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		confirmEmail.sendKeys(email);
 		Reporter.log("Email has entered.",true);
 	}
 	
 	public void enterPhoneNumber(String country, String num) throws InterruptedException {
-		Utility.selectValueFromList(countryRegion, country);
+		countryRegion.click();
 		Thread.sleep(1000);
+		Utility.selectValueFromList(countryRegion, country);
+		Thread.sleep(2000);
 		phoneNumber.sendKeys(num);
 		Thread.sleep(2000);
-		Reporter.log("Phone number entered.",true);
+		Reporter.log("Phone number has entered.",true);
 	}
 	
 	public void clickOnContinue() {
+		Utility.scrollPage(driver, continueButton);
 		continueButton.click();
 		Reporter.log("Navigated to payment page.",true);
+		System.out.println();
 	}
 	
 }
