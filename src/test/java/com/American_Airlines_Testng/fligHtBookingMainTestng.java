@@ -48,6 +48,7 @@ public class fligHtBookingMainTestng  extends Base{
 		Thread.sleep(2000);
 		hm.searchFlight();		
 		  logger.info("User has searched flight.");
+		  
 		
 		 ch = new ChooseFlights(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
@@ -84,5 +85,10 @@ public class fligHtBookingMainTestng  extends Base{
 	
 	Assert.assertEquals(actualResult, expResult, "Credit card number input box is not visible. Test case has been failed.");
   Reporter.log("Credit card number input box is visible. Test case has been passed.",true);
+  
+  Reporter.log("This is cloned project",true);
+  Reporter.log("Successfully pushed in other branch",true);
+  
+  
   }
 }
