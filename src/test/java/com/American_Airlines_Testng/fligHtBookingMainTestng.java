@@ -88,6 +88,8 @@ public class fligHtBookingMainTestng  extends Base{
   
   Reporter.log("This is cloned project",true);
   Reporter.log("Successfully pushed in other branch",true);
+  Reporter.log("Successfully pushed in other branch second time",true);
+  
   
   
   }
