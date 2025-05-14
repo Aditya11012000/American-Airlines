@@ -15,3 +15,64 @@
 2025-04-25 20:11:28,923 [main] INFO My_New_log - User has searched flight.
 2025-04-25 20:12:05,760 [main] INFO My_New_log - User has selectd the flight ticket.
 2025-04-25 20:12:59,216 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 15:41:12,819 [main] INFO My_New_log - User has searched flight.
+2025-04-30 15:41:58,533 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 15:42:51,780 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 16:03:43,265 [main] INFO My_New_log - User has searched flight.
+2025-04-30 16:04:31,719 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 16:05:25,445 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 16:30:59,794 [main] INFO My_New_log - User has searched flight.
+2025-04-30 16:31:38,225 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 16:32:29,861 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 16:39:46,122 [main] INFO My_New_log - User has searched flight.
+2025-04-30 16:40:26,725 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 16:41:34,269 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 16:48:18,489 [main] INFO My_New_log - User has searched flight.
+2025-04-30 16:48:55,185 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 16:49:48,103 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 16:56:27,760 [main] INFO My_New_log - User has searched flight.
+2025-04-30 16:57:05,512 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 16:57:55,031 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 17:01:50,123 [main] INFO My_New_log - User has searched flight.
+2025-04-30 17:02:24,447 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 17:03:06,002 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 17:08:24,975 [main] INFO My_New_log - User has searched flight.
+2025-04-30 17:09:05,677 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 17:09:47,255 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 17:11:43,022 [main] INFO My_New_log - User has searched flight.
+2025-04-30 17:13:19,166 [main] INFO My_New_log - User has searched flight.
+2025-04-30 17:14:00,047 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 17:14:50,488 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 21:19:22,601 [main] INFO My_New_log - User has searched flight.
+2025-04-30 21:19:55,792 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 21:20:46,702 [main] INFO My_New_log - User has provided passenger details.
+2025-04-30 21:24:34,022 [main] INFO My_New_log - User has searched flight.
+2025-04-30 21:25:08,170 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-04-30 21:25:59,477 [main] INFO My_New_log - User has provided passenger details.
+2025-05-02 15:40:11,802 [main] INFO My_New_log - User has searched flight.
+2025-05-02 15:40:57,071 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 15:42:17,607 [main] INFO My_New_log - User has searched flight.
+2025-05-02 15:43:04,562 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 15:47:04,078 [main] INFO My_New_log - User has searched flight.
+2025-05-02 15:47:42,210 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 15:48:36,216 [main] INFO My_New_log - User has provided passenger details.
+2025-05-02 16:07:37,656 [main] INFO My_New_log - User has searched flight.
+2025-05-02 16:08:10,431 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 16:08:59,317 [main] INFO My_New_log - User has provided passenger details.
+2025-05-02 16:16:50,582 [main] INFO My_New_log - User has searched flight.
+2025-05-02 16:17:25,254 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 16:18:14,412 [main] INFO My_New_log - User has provided passenger details.
+2025-05-02 17:30:23,334 [main] INFO My_New_log - User has searched flight.
+2025-05-02 17:30:57,278 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 17:31:47,079 [main] INFO My_New_log - User has provided passenger details.
+2025-05-02 17:40:04,312 [main] INFO My_New_log - User has searched flight.
+2025-05-02 17:40:43,738 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 17:41:11,134 [TestNG-test-Test-1] INFO My_New_log - User has searched flight.
+2025-05-02 17:41:52,711 [TestNG-test-Test-1] INFO My_New_log - User has selectd the flight ticket.
+2025-05-02 17:42:43,749 [TestNG-test-Test-1] INFO My_New_log - User has provided passenger details.
+2025-05-10 20:31:23,985 [main] INFO My_New_log - User has searched flight.
+2025-05-10 20:32:02,183 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-10 20:32:53,263 [main] INFO My_New_log - User has provided passenger details.
+2025-05-13 10:46:07,099 [main] INFO My_New_log - User has searched flight.
+2025-05-13 10:46:41,977 [main] INFO My_New_log - User has selectd the flight ticket.
+2025-05-13 10:47:32,556 [main] INFO My_New_log - User has provided passenger details.
