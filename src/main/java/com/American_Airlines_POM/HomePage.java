@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
 public class HomePage {
-	@FindBy(xpath = "//span[text()='One way']") private WebElement radioButton;
-	@FindBy(id = "reservationFlightSearchForm.originAirport") private WebElement fromCity;
+@FindBy(xpath = "//span[text()='One way']") private WebElement radioButton;
+@FindBy(id = "reservationFlightSearchForm.originAirport") private WebElement fromCity;
 @FindBy(xpath = "//UL[@ID='ui-id-1']/li[1]/a") private WebElement srcCity;
 @FindBy(id = "reservationFlightSearchForm.destinationAirport") private WebElement toCity;
 @FindBy(xpath = "//ul[@id='ui-id-2']/li[1]/a") private WebElement destCity;

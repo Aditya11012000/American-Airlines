@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.American_Airlines_Base.Base;
@@ -24,23 +25,23 @@ public class fligHtBookingMainTestng  extends Base{
    Logger logger;
    PaymentPage pay;
 	
-	@BeforeClass
-	public void launchBrowser() {
-		openBrowswer();
-	}
+//	@BeforeClass
+//	public void launchBrowser() {
+//		openBrowswer();
+//	}
 	
-	@BeforeMethod
+   @BeforeClass
 	public void preconditions() throws InterruptedException {
-	 
+	   openBrowswer();
 		logger= Logger.getLogger("My_New_log");
 		  PropertyConfigurator.configure("log4j.properties");
 		
-		 hm = new HomePage(driver);
+		hm = new HomePage(driver);
 		Utility.scrollPage(driver);
 		hm.selectRadioButton();
-		hm.selectSourceCity("new");
+		hm.selectSourceCity("san");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-		hm.selectDestinationCity("california");
+		hm.selectDestinationCity("chicago");
 		hm.selectAdults("1");
 		hm.selectDate();
 		hm.selectChildren("0"); 
@@ -77,7 +78,9 @@ public class fligHtBookingMainTestng  extends Base{
 		  logger.info("User has provided passenger details.");
 		System.out.println();
 	}
-  @Test
+	
+	
+  @Test(priority = 2)
   public void creditCardSelectionValidation() throws InterruptedException {
 	  pay = new PaymentPage(driver);
 	boolean expResult=true;
@@ -85,10 +88,25 @@ public class fligHtBookingMainTestng  extends Base{
 	
 	Assert.assertEquals(actualResult, expResult, "Credit card number input box is not visible. Test case has been failed.");
   Reporter.log("Credit card number input box is visible. Test case has been passed.",true);
-  
+
   Reporter.log("This is cloned project",true);
   Reporter.log("Successfully pushed in other branch",true);
-  
-  
+  System.out.println();
   }
+  
+@Test(priority = 1)
+public void otherPaymentOptionValidation() throws InterruptedException {
+	pay=new PaymentPage(driver);
+	boolean expResult= true;
+	boolean actualResult=pay.isPaymentTypeSelectionListVisible();
+	
+Assert.assertEquals(actualResult, expResult, "Other payment option selection list has not visibled. Test case has been failed.");
+Reporter.log("Other payment selection option is visible. Test case has been passed.",true);
+System.out.println();
+Thread.sleep(20000);
+
+Reporter.log("This is first change",true);
+}
+
+
 }

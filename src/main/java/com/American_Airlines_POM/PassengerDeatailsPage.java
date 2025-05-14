@@ -66,11 +66,9 @@ public class PassengerDeatailsPage extends Base {
 	
 	public void enterPhoneNumber(String country, String num) throws InterruptedException {
 		countryRegion.click();
-		Thread.sleep(1000);
 		Utility.selectValueFromList(countryRegion, country);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		phoneNumber.sendKeys(num);
-		Thread.sleep(2000);
 		Reporter.log("Phone number has entered.",true);
 	}
 	

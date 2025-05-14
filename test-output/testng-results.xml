@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Page scrolled.]]>
@@ -33,7 +33,7 @@
     </line>
     <line>
       <![CDATA[Page scrolled to element : INR
-76,572]]>
+33,000]]>
     </line>
     <line>
       <![CDATA[Flights selected]]>
@@ -42,7 +42,7 @@
       <![CDATA[Page scrolled to element : Continue]]>
     </line>
     <line>
-      <![CDATA[Continued to passenger details page.]]>
+      <![CDATA[Navigated to passenger details page.]]>
     </line>
     <line>
       <![CDATA[Title and gender has selected.]]>
@@ -72,22 +72,24 @@
       <![CDATA[Navigated to payment page.]]>
     </line>
     <line>
+      <![CDATA[Other forms of payment option selected]]>
+    </line>
+    <line>
+      <![CDATA[Other payment selection option is visible. Test case has been passed.]]>
+    </line>
+    <line>
       <![CDATA[Credit/Debit card option selected.]]>
     </line>
     <line>
       <![CDATA[Credit card number input box is visible. Test case has been passed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-04-25T20:11:12 IST" name="Default suite" finished-at="2025-04-25T20:13:01 IST" duration-ms="108522">
+  <suite started-at="2025-05-13T10:45:48 IST" name="Default suite" finished-at="2025-05-13T10:47:55 IST" duration-ms="127720">
     <groups>
     </groups>
-    <test started-at="2025-04-25T20:11:12 IST" name="Default test" finished-at="2025-04-25T20:13:01 IST" duration-ms="108522">
+    <test started-at="2025-05-13T10:45:48 IST" name="Default test" finished-at="2025-05-13T10:47:55 IST" duration-ms="127720">
       <class name="com.American_Airlines_Testng.fligHtBookingMainTestng">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@7530ad9c]" started-at="2025-04-25T20:11:12 IST" name="launchBrowser" finished-at="2025-04-25T20:11:18 IST" duration-ms="5874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="preconditions()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@7530ad9c]" started-at="2025-04-25T20:11:18 IST" name="preconditions" finished-at="2025-04-25T20:12:59 IST" duration-ms="100683" status="PASS">
+        <test-method is-config="true" signature="preconditions()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@5fbe4146]" started-at="2025-05-13T10:45:48 IST" name="preconditions" finished-at="2025-05-13T10:47:32 IST" duration-ms="104354" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Page scrolled.]]>
@@ -121,7 +123,7 @@
             </line>
             <line>
               <![CDATA[Page scrolled to element : INR
-76,572]]>
+33,000]]>
             </line>
             <line>
               <![CDATA[Flights selected]]>
@@ -130,7 +132,7 @@
               <![CDATA[Page scrolled to element : Continue]]>
             </line>
             <line>
-              <![CDATA[Continued to passenger details page.]]>
+              <![CDATA[Navigated to passenger details page.]]>
             </line>
             <line>
               <![CDATA[Title and gender has selected.]]>
@@ -161,7 +163,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- preconditions -->
-        <test-method signature="creditCardSelectionValidation()[pri:0, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@7530ad9c]" started-at="2025-04-25T20:12:59 IST" name="creditCardSelectionValidation" finished-at="2025-04-25T20:13:01 IST" duration-ms="1901" status="PASS">
+        <test-method signature="otherPaymentOptionValidation()[pri:1, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@5fbe4146]" started-at="2025-05-13T10:47:32 IST" name="otherPaymentOptionValidation" finished-at="2025-05-13T10:47:54 IST" duration-ms="21849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Other forms of payment option selected]]>
+            </line>
+            <line>
+              <![CDATA[Other payment selection option is visible. Test case has been passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otherPaymentOptionValidation -->
+        <test-method signature="creditCardSelectionValidation()[pri:2, instance:com.American_Airlines_Testng.fligHtBookingMainTestng@5fbe4146]" started-at="2025-05-13T10:47:54 IST" name="creditCardSelectionValidation" finished-at="2025-05-13T10:47:55 IST" duration-ms="1458" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Credit/Debit card option selected.]]>

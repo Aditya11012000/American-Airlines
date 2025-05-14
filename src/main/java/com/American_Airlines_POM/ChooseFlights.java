@@ -39,7 +39,7 @@ public void continueBooking() throws InterruptedException {
 	Utility.scrollPage(driver, continueButton);
 	Thread.sleep(1000);
 	continueButton.click();
-	Reporter.log("Continued to passenger details page.",true);
+	Reporter.log("Navigated to passenger details page.",true);
 	System.out.println();
 }
 }
